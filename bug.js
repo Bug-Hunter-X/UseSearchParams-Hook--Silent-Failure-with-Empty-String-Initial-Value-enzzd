@@ -1,0 +1,1 @@
+In React Router Dom v6, using `useSearchParams` hook with an initial value can lead to unexpected behavior if you're not careful. If the initial value isn't an array of key-value pairs (e.g., a string), the hook will not work as expected and may not update correctly.  For example, using an empty string '' instead of `[]` will cause the hook to fail silently.
